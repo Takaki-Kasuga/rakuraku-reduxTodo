@@ -8,8 +8,6 @@ import App from './components/App';
 import reportWebVitals from './reportWebVitals';
 
 const store = createStore(reducer)
-console.log('index.jsが発火')
-console.log(store)
 
 ReactDOM.render(
   <Provider store={store}>
