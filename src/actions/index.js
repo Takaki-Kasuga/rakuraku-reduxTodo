@@ -1,10 +1,10 @@
-export const COUNTPLUS = 'countPlus'
-export const COUNTMINUS = 'countMinus'
+export const ADDTASK = 'addTask'
+// export const COUNTMINUS = 'countMinus'
 
 // ActionCreater()でオブジェクトを返す
-export const countPlus = () => ({
-  type: COUNTPLUS
+export const addTask = () => ({
+  type: ADDTASK
 })
-export const countMinus = () => ({
-  type: COUNTMINUS
-})
+// export const countMinus = () => ({
+//   type: COUNTMINUS
+// })

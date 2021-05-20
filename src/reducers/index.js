@@ -1,4 +1,4 @@
 import { combineReducers } from 'redux'
-import counter from './counter'
+import inComplete from './inComplete'
 
-export default combineReducers({ counter })
+export default combineReducers({ inComplete })
