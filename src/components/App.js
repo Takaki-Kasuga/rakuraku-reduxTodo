@@ -11,13 +11,20 @@ const App = (props) => {
   console.log(props)
   return (
     <React.Fragment>
-      {props.task}
+      <div>
+
+      </div>
+      {props.inCompleteTasks.map((inCompleteTask, index) => {
+        return (
+          <p key={index}>{inCompleteTask}</p>
+        )
+      })}
     </React.Fragment>
   );
 }
 
 const mapStateToProps = state => ({
-  task: 'タスク'
+  inCompleteTasks: state.inComplete.inCompleteTasks
 })
 
 console.log('mapStateToPropsが発火します。')

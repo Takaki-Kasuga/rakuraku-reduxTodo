@@ -1,6 +1,6 @@
 import { ADDTASK } from '../actions'
 
-const initialState = ['タスク1']
+const initialState = { inCompleteTasks: ['タスク', 'タスク２'] }
 
 // state = initialはデフォルトの値
 export default (state = initialState, action) => {
